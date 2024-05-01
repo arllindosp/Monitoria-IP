@@ -2,10 +2,9 @@
 
 MEUU DEUS?? JÁ É OUTONO! E os preparativos para Feira do Vale do Orvalho já começaram ! A feira é um evento especial que acontece anualmente em Stardew Valley e é organizada pelo Prefeito Lewis. Durante a festividade os participantes podem interagir com os moradores locais e disputar concursos diversos. Participar da feira é uma grande oportunidade para exibir os recursos produzidos e cultivados durante a estação de Outono. E Elisandrade, uma fazendeira local, está determinada em não deixar essa chance passar despercebida.
 
-![Imagem da Feira](https://stardewvalleywiki.com/mediawiki/images/thumb/4/45/StardewValleyFair.png/1200px-StardewValleyFair.png)
+![fall](https://github.com/arllindosp/Monitoria-IP/assets/134821451/e462edfc-58c5-4857-ac19-4b35cb6c28d6)
 
 Elisa está ansiosa para concorrer na **Exposição de Produtos**, uma competição realizada durante a feira. Nessa disputa, os fazendeiros selecionam os itens de sua colheita e os apresentam em bancadas decoradas e dispostas em uma configuração matricial,ou seja, no formato de uma matriz de duas dimensões.Nesse sentido, os juízes irão escolher e premiar a bancada mais atraente. Determinados em impulsioar as chances de vitória , você e Elisa decidem consultar o **Oráculo** no **Estande da Clarevidência** para descobrir a melhor maneira de criar a apresentação mais visualmente atraente. Com sua habilidade para antecipar o futuro , o Oráculo usa sua magia e fornece um algorítimo para construir uma exposição capaz de encantar os olhos dos avaliadores.Entretanto,Elisandrade sofre de **Perda de Memória Recente** e em virtude disso esqueceu as instruções providas pelo Oráculo, porém, o acompanhente de Elisa, que nesse contexto é você, ainda se recorda de tudo e vai ajuda-la a vencer a competição.
-![Texto alternativo](https://assetsio.gnwcdn.com/stardew-valley-festivals-header.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp)
 
 ## Input
 
@@ -25,7 +24,7 @@ Após isso , você recebrá a seguinte entrada E-vezes:
 
 > **a (i,j)**
 
-Onde **a** é um inteiro que representa o nível de atratividade de um elemento da bancada e **i** ,**j** são inteiros positivos que definem respectivamente a linha e a coluna nas quais **a** tem de ser posicionado.
+Onde **a** é um inteiro que representa o nível de atratividade de um elemento da bancada e **i** ,**j** são inteiros positivos que definem respectivamente a linha e a coluna nas quais **a** tem de ser posicionado. $$ a, i, j \in \mathbb{Z}^+ $$
 
 **Exemplo:**
 
