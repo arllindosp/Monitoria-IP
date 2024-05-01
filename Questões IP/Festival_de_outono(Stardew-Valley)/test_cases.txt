@@ -1,0 +1,146 @@
+# Test Cases para Questão de Porgramção Festival de Outono
+
+#--> Test case 1:
+
+### Input:
+3 x 3
+6
+8 (0,0)
+9 (0,1)
+7 (2,0)
+6 (1,1)
+3 (1,2)
+2 (2,2)
+Permutar
+(0,0) (2,2)
+Transposição
+Permutar
+(1,1) (0,2)
+Transposição
+Fim
+
+#--> Output:
+Atual Arranjo:
+2 9 0
+0 7 3
+6 0 8
+
+#--> Test case 2:
+
+### Input:
+4 x 3
+8
+1 (0,0)
+8 (0,2)
+3 (2,0)
+6 (1,1)
+24 (1,2)
+18 (0,1)
+9 (3,0)
+11 (3,2)
+Permutar
+(3,2) (0,0)
+Remover
+Transposição
+Fim
+
+#--> Output:
+Atual Arranjo:
+11 0 3 9
+18 6 0 0
+8 24 0 0
+
+#--> Test case 3:
+
+### Input:
+2 x 2
+4
+9 (0,0)
+8 (0,1)
+4 (1,0)
+5 (1,1)
+Permutar
+(1,1) (0,0)
+Permutar
+(0,1) (1,0)
+Remover
+Transposição
+Fim
+
+#--> Output:
+Atual Arranjo:
+5 8
+0 9
+
+#--> Test case 4:
+
+### Input:
+4 x 4
+8
+9 (0,0)
+8 (0,1)
+4 (1,0)
+5 (1,1)
+45 (3,3)
+11 (0,3)
+23 (2,0)
+56 (3,1)
+Remover
+Remover
+Remover
+Remover
+Remover
+Remover
+Remover
+Remover
+Fim
+
+#--> Output:
+Atual Arranjo:
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+
+#--> Test case 5:
+
+### Input:
+3 x 3
+4
+9 (0,0)
+8 (0,2)
+4 (2,0)
+5 (2,2)
+Transposição
+Transposição
+Transposição
+Fim
+
+#--> Output:
+Atual Arranjo:
+9 0 4
+0 0 0
+8 0 5
+
+#--> Test case 6:
+
+### Input:
+3 x 2
+4
+3 (0,0)
+8 (0,1)
+6 (2,0)
+7 (2,1)
+Permutar
+(0,0) (2,1)
+Permutar
+(0,0) (0,1)
+Permutar
+(0.0) (2,0)
+Fim
+
+#--> Output:
+Atual Arranjo:
+6 7
+0 0
+8 3
